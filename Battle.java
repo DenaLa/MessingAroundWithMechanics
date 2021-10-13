@@ -71,10 +71,8 @@ public class Battle {
 		t.setHP(t.getHP()-damage);
 	}
 	
-	//Skill
-	public void skill(Entity a,Entity t) {
-		//somehow we take... skill and put it in
-	}
+	//Skill - Hypothetically it should... just go through a specific class' given skills. skills are
+	//defined within the class....
 	
 	// defend
 	public int Defend(Entity e) {
@@ -82,11 +80,8 @@ public class Battle {
 		return guard;
 	}
 	
-	//item
-	public void Item() {
-		//invetory... item effects... figure it out....
-		
-	}
+	//item - for using items of course.
+
 	
 	//Flee should end the battle.
 	
